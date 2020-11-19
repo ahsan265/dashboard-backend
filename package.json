@@ -1,0 +1,31 @@
+{
+  "name": "geojsonschema",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@turf/turf": "^5.1.6",
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "csv-parser": "^2.3.2",
+    "expres": "0.0.5",
+    "express": "^4.17.1",
+    "moment": "^2.27.0",
+    "mongoose": "^5.7.12"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Trafficity/traficity-dashboard-backend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Trafficity/traficity-dashboard-backend/issues"
+  },
+  "homepage": "https://github.com/Trafficity/traficity-dashboard-backend#readme",
+  "description": ""
+}
